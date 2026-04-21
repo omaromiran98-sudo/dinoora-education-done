@@ -3,7 +3,8 @@
 import { ArrowLeft, Home, CheckCircle, MapPin, Shield } from "lucide-react"
 import Link from "next/link"
 import { useLanguage } from "@/lib/language-context"
-import { Button } from "@/components/ui/button"import { ApplicationForm } from "@/components/application-form"
+import { Button } from "@/components/ui/button"
+import { ApplicationForm } from "@/components/application-form"
 export default function AccommodationPage() {
   const { t, locale } = useLanguage()
   const service = t.services.items.accommodation
