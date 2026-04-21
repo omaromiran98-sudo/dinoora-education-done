@@ -2,7 +2,7 @@
   "buildCommand": "pnpm run build",
   "devCommand": "pnpm dev",
   "installCommand": "pnpm install",
-  "framework": "nextjs",
+  "nodejs": "20",
   "env": [
     {
       "key": "NEXT_PUBLIC_SITE_URL",
